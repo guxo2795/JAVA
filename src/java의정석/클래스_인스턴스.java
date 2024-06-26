@@ -35,7 +35,20 @@ public class 클래스_인스턴스 {
         System.out.println();
         System.out.println("t1의 channel값은 " + t1.channel + "입니다.");
         System.out.println("t2의 channel값은 " + t2.channel + "입니다.");
+        System.out.println();
 
+        // 객체 배열
+        Tv[] tvArr = new Tv[5]; // 길이가 5인 Tv객체 배열 생성
+
+        for (int i = 0; i < tvArr.length; i++) {
+            tvArr[i] = new Tv(); // 객체를 생성해서 배열의 각 요소에 저장해줘야 함.
+            tvArr[i].channel = i + 10;
+        }
+        for (int i = 0; i < tvArr.length; i++) {
+            tvArr[i].channelUp();
+            System.out.printf("tvArr[%d].channel = %d%n", i, tvArr[i].channel);
+            // printf, println 주의
+        }
     }
 
 }
