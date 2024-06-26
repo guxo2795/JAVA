@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecfcc1e5-f7a8-4dce-828a-ec434fadab2b" name="Changes" comment="정석 chap6 : 클래스 및 인스턴스">
+    <list default="true" id="ecfcc1e5-f7a8-4dce-828a-ec434fadab2b" name="Changes" comment="정석 chap6 : 객체배열">
+      <change afterPath="$PROJECT_DIR$/src/java의정석/클래스변수_인스턴스변수.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java의정석/클래스_인스턴스.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java의정석/클래스_인스턴스.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +41,13 @@
   "keyToString": {
     "Application.모의고사완전탐색.executor": "Run",
     "Application.클래스_인스턴스.executor": "Run",
+    "Application.클래스변수_인스턴스변수.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Intellij/JAVA",
+    "last_opened_file_path": "C:/Intellij/kiosk",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -125,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719371252438</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="정석 chap6 : 객체배열">
+      <option name="closed" value="true" />
+      <created>1719372300270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719372300270</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +156,7 @@
     <MESSAGE value="update jdk" />
     <MESSAGE value="gitignore workspace.xml 추가" />
     <MESSAGE value="정석 chap6 : 클래스 및 인스턴스" />
-    <option name="LAST_COMMIT_MESSAGE" value="정석 chap6 : 클래스 및 인스턴스" />
+    <MESSAGE value="정석 chap6 : 객체배열" />
+    <option name="LAST_COMMIT_MESSAGE" value="정석 chap6 : 객체배열" />
   </component>
 </project>
