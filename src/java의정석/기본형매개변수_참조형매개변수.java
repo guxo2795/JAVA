@@ -11,13 +11,13 @@ public class 기본형매개변수_참조형매개변수 {
         System.out.println("main() : x = " + d.x);
         System.out.println();
 
-        // 기본형 매개변수
+        // 기본형 매개변수(read only)
         primitive_Change(d.x);
         System.out.println("After primitive_Change(d.x)");
         System.out.println("main() : x = " + d.x);
         System.out.println();
 
-        // 참조형 매개변수
+        // 참조형 매개변수(read & write)
         reference_Change(d);
         System.out.println("After primitive_Change(d.x)");
         System.out.println("main() : x = " + d.x);
