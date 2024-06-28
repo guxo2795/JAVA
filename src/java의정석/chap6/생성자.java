@@ -1,4 +1,4 @@
-package java의정석;
+package java의정석.chap6;
 
 class Data1 {
     int value;

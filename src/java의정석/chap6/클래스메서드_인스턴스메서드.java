@@ -1,4 +1,4 @@
-package java의정석;
+package java의정석.chap6;
 
 public class 클래스메서드_인스턴스메서드 {
     public static void main(String[] args) {

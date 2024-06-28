@@ -1,4 +1,4 @@
-package java의정석;
+package java의정석.chap6;
 
 class Card {
     // 인스턴스 변수 : 인스턴스마다 고유한 상태, 값을 유지해야할 경우

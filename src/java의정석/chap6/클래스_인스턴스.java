@@ -1,4 +1,4 @@
-package java의정석;
+package java의정석.chap6;
 
 class Tv {
     // Tv의 속성(멤버변수)

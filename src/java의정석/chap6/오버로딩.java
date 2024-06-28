@@ -1,6 +1,4 @@
-package java의정석;
-
-import java.lang.management.MemoryUsage;
+package java의정석.chap6;
 
 public class 오버로딩 {
     public static void main(String[] args) {
