@@ -1,0 +1,27 @@
+package 백준.단계별.단계10_기하;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class 세막대 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
+        int a = Integer.parseInt(st.nextToken());
+        int b = Integer.parseInt(st.nextToken());
+        int c = Integer.parseInt(st.nextToken());
+
+        int max = Math.max(a, Math.max(b, c));
+        int side = (a + b + c) - max;
+
+        if(max < side) { // 삼각형 조건 만족
+            System.out.println(a+b+c);
+        } else {
+            System.out.println(side+(side-1));
+        }
+    }
+}
