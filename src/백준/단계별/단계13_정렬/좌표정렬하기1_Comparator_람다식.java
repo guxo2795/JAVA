@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class 좌표정렬하기1_Comparator_람다식 {
@@ -41,9 +42,12 @@ public class 좌표정렬하기1_Comparator_람다식 {
 //            }
 //        });
 
-        Arrays.sort(arr, (o1, o2) ->
-                o1[0] == o2[0] ? Integer.compare(o1[1], o2[1]) : Integer.compare(o1[0], o2[0])
-        );
+//        Arrays.sort(arr, (o1, o2) ->
+//                o1[0] == o2[0] ? Integer.compare(o1[1], o2[1]) : Integer.compare(o1[0], o2[0])
+//        );
+        // 가독성
+        Arrays.sort(arr, Comparator.comparingInt((int[] o) -> o[0])
+                .thenComparingInt(o -> o[1]));
 
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < N; i++) {
