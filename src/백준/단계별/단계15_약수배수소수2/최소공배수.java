@@ -26,6 +26,12 @@ public class 최소공배수 {
         System.out.println(sb);
     }
 
+    // 유클리드 호제법 = 최대공약수(GCD, Greatest Common Divior)를 효율적으로 구하는 알고리즘
+    // 두 정수 a,b (a > b)
+    // a를 b로 나눈 나머지를 r
+    // a와 b의 최대공약수는 b와 r의 최대공약수와 같음 (gcd(a,b) = gcd(b,a))
+    // r이 0이 될 때까지 반복
+
     public static int gcd(int a, int b) {
         while(b != 0) {
             int tmp = b;
