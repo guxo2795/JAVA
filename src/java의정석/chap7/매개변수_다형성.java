@@ -30,6 +30,9 @@ class Buyer {
     int money = 1000;
     int bonusPoint = 0;
     Vector item = new Vector(); // 동적으로 관리되는 객체 배열
+    // Vector() : 10개의 객체를 저장할 수 있는 Vector 인스턴스 생성
+    //            그 후, 10개 이상의 인스턴스가 저장되면 자동적으로 크기 증가
+    // => 내부적으로 Object타입의 배열을 가지고 있기 때문에, 모든 종류의 객체가 저장 가능함.
 
     // 클래스별로(Computer, Audio) buy메서드를 만들지 않고 다형성을 적용하여 하나의 메서드로 처리
     // Computer클래스와 Audio클래스는 Product클래스의 자손이므로 Product p에 인스턴스를 제공하는 것이 가능.
